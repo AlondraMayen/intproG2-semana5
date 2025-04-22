@@ -18,4 +18,4 @@ total2 = total1 - cantidad_vendidos
 print(f"""El inventario inicial es de: {cantidad_inicial}
 La cantidad de productos recibidos de: {cantidad_recibidos}
 La cantidad de productos vendidos es de:  {cantidad_vendidos}
-El inventatio final es de: {total2} """)
+El inventatio final es de: {total2}""")
