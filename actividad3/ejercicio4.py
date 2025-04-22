@@ -15,3 +15,8 @@ rendimiento = distancia / litros
 precio_por_litro = 45.50
 gasto_total = litros * precio_por_litro
 
+print(f"""Distancia recorrida: {distancia} km
+Litros consumidos: {litros} L
+Precio por litro: C$ {precio_por_litro:.2f}
+Rendimiento del vehículo: {rendimiento:.2f} km/l
+Gasto total en combustible: C$ {gasto_total:.2f}""")
