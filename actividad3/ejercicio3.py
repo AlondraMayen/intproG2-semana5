@@ -10,8 +10,16 @@
 #Mostrar el monto final y el interés ganado
 
 capital_inicial = int(input("Ingrese el capital inicial: "))
-interes_anual = int(input("Ingrese el interes anual (%): "))
+interes_anual = int(input("Ingrese el interés anual (%): "))
 años = int(input("Ingrese la cantidad de años: "))
-tasa_decimal = interes_anual * 0.01
-valor = (1 + tasa_decimal)**años
 
+tasa_decimal = interes_anual * 0.01
+valor = (1 + tasa_decimal) ** años
+monto_final = valor * capital_inicial
+interes_ganado = monto_final - capital_inicial
+
+print(f"""El capital inicial es: {capital_inicial}
+La tasa de interés anual es: {interes_anual}%
+Los años son: {años}
+El monto final es: {monto_final:.2f}
+El interés ganado es: {interes_ganado:.2f}""")
